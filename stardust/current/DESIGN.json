@@ -1,0 +1,783 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-08T16:14:06.276Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_brand-extraction.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0"
+  },
+  "name": "Continental AG Corporate Web Design System",
+  "description": "Descriptive current-state design system extracted from www.continental.com",
+  "colors": {
+    "primary": "#ffa500",
+    "text-primary": "#000000",
+    "neutral-bg": "#ffffff",
+    "surface-light": "#f0f0f0",
+    "surface-warm": "#f4cf9b",
+    "text-muted": "#6b6b6b",
+    "text-secondary": "#969696",
+    "border-neutral": "#cdcdcd",
+    "primary-hover": "#e38702"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "ContinentalStagSansW, Arial, sans-serif",
+      "fontSize": "52.5px",
+      "fontWeight": 400,
+      "lineHeight": 1.15,
+      "letterSpacing": "normal"
+    },
+    "h2": {
+      "fontFamily": "ContinentalStagSansW, Arial, sans-serif",
+      "fontSize": "39.38px",
+      "fontWeight": 400,
+      "lineHeight": 1.2,
+      "letterSpacing": "normal"
+    },
+    "h3": {
+      "fontFamily": "ContinentalStagSansW, Arial, sans-serif",
+      "fontSize": "26.25px",
+      "fontWeight": 400,
+      "lineHeight": 1.25,
+      "letterSpacing": "normal"
+    },
+    "body": {
+      "fontFamily": "ContinentalStagSansW, Arial, sans-serif",
+      "fontSize": "17.5px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "normal"
+    },
+    "small": {
+      "fontFamily": "ContinentalStagSansW, Arial, sans-serif",
+      "fontSize": "14.88px",
+      "fontWeight": 400,
+      "lineHeight": 1.4,
+      "letterSpacing": "normal"
+    }
+  },
+  "rounded": {
+    "none": "0px",
+    "md": "24px",
+    "pill": "28px",
+    "circle": "50%"
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "xxl": "48px",
+    "section": "64px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.primary}",
+      "textColor": "{colors.text-primary}",
+      "rounded": "{rounded.pill}",
+      "padding": "12px 24px"
+    },
+    "button-primary-hover": {
+      "backgroundColor": "{colors.primary-hover}"
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "backgroundColor": "#ffa500",
+          "textColor": "#000000",
+          "borderRadius": "28px",
+          "padding": "12px 24px"
+        },
+        "secondary": {
+          "backgroundColor": "transparent",
+          "textColor": "#000000",
+          "borderRadius": "28px",
+          "padding": "10px 22px"
+        }
+      },
+      "cards": {
+        "backgroundColor": "#f0f0f0",
+        "borderRadius": "0px",
+        "shadow": "none"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "mode": "28px",
+        "areaMode": "24px",
+        "pill": "50%",
+        "occurrences": [
+          {
+            "value": "28px",
+            "count": 295,
+            "area": 187408,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div:nth-of-type(2) > div:nth-of-type(2) > i"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div:nth-of-type(2) > div:nth-of-type(3) > i"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > a > div:nth-of-type(2) > div:nth-of-type(3) > i"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div:nth-of-type(2) > div:nth-of-type(2) > i"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div:nth-of-type(2) > div:nth-of-type(3) > i"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 58,
+            "area": 85968,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "body > button"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "body > button"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "24px",
+            "count": 54,
+            "area": 574676,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > a"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > a:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > a:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > a"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(3) > a:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "40px",
+            "count": 26,
+            "area": 41600,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > button > div"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > button > div"
+              },
+              {
+                "url": "https://www.continental.com/en/country-selector/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "48px",
+            "count": 13,
+            "area": 371328,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/country-selector/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/investors/reports-presentations/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/press/",
+                "selector": "#tx-solr-search-form-pi-results-header > div:nth-of-type(2) > input"
+              }
+            ]
+          },
+          {
+            "value": "9px",
+            "count": 4,
+            "area": 16200,
+            "sources": [
+              {
+                "url": "https://www.continental.com/de/",
+                "selector": "#AC_PLAYER_PLAYER_0 > button"
+              },
+              {
+                "url": "https://www.continental.com/en/",
+                "selector": "#AC_PLAYER_PLAYER_0 > button"
+              }
+            ]
+          },
+          {
+            "value": "34px",
+            "count": 3,
+            "area": 32572,
+            "sources": [
+              {
+                "url": "https://www.continental.com/en/press/",
+                "selector": "#tx-solr-search-form-pi-results > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/press/press-releases/",
+                "selector": "#tx-solr-search-form-pi-results > div:nth-of-type(2) > input"
+              },
+              {
+                "url": "https://www.continental.com/en/press/press-releases/corporate-topics/",
+                "selector": "#tx-solr-search-form-pi-results > div:nth-of-type(2) > input"
+              }
+            ]
+          },
+          {
+            "value": "76px 76px 0px 0px",
+            "count": 2,
+            "area": 6910,
+            "sources": [
+              {
+                "url": "https://www.continental.com/en/sustainability/",
+                "selector": "div > div > div > div > div > div:nth-of-type(2) > div > button"
+              }
+            ]
+          },
+          {
+            "value": "20px 0px 0px 20px",
+            "count": 1,
+            "area": 3344,
+            "sources": [
+              {
+                "url": "https://www.continental.com/en/sustainability/",
+                "selector": "body > div:nth-of-type(3)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+          "count": 17,
+          "sources": [
+            {
+              "url": "https://www.continental.com/de/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/country-selector/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/investors/reports-presentations/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/press/",
+              "selector": "header > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.4) 0px 0px 3px 0px",
+          "count": 6,
+          "sources": [
+            {
+              "url": "https://www.continental.com/de/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/de/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.continental.com/en/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.continental.com/en/press/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "rgb(150, 150, 150) 0px 0px 5px 0px",
+          "count": 3,
+          "sources": [
+            {
+              "url": "https://www.continental.com/en/country-selector/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/investors/reports-presentations/",
+              "selector": "header > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.continental.com/en/press/press-contacts/",
+              "selector": "header > div:nth-of-type(1)"
+            }
+          ]
+        }
+      ],
+      "gradients": [],
+      "patterns": [
+        "hero-with-image",
+        "card",
+        "chip",
+        "breadcrumb"
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Welcome to Continental",
+      "tagline": "Our Goal: Healthy Mobility - clean, safe and connected. Our heart beats for this. Learn more about it on our homepage.",
+      "firstParagraph": "Continental is a leading tire manufacturer and industry specialist that develops and produces sustainable, safe and convenient solutions for automotive manufacturers as well as industrial and end customers worldwide. Learn more",
+      "sampleCtas": [
+        "Read more",
+        "More information",
+        "Learn more"
+      ],
+      "heroImage": "https://cdn.continental.com/fileadmin/_processed_/4/6/csm_2025-geschaeftsbericht-cover_be01b5aafc.png",
+      "heroMedium": null
+    },
+    "modules": [
+      {
+        "id": "hero-teaser-slider",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": "div.c-heroteaser-fixed"
+          },
+          {
+            "slug": "de",
+            "selector": "div.c-heroteaser-fixed"
+          },
+          {
+            "slug": "en-press",
+            "selector": "div.c-heroteaser-fixed"
+          },
+          {
+            "slug": "en-sustainability",
+            "selector": "div.c-heroteaser-fixed"
+          },
+          {
+            "slug": "en-press-press-releases",
+            "selector": "div.c-heroteaser-fixed"
+          },
+          {
+            "slug": "en-press-press-releases-corporate-topics",
+            "selector": "div.c-heroteaser-fixed"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "hero-teaser-small",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-press-press-contacts",
+            "selector": "div.c-heroteaser--small"
+          },
+          {
+            "slug": "en-investors-reports-presentations",
+            "selector": "div.c-heroteaser--small"
+          },
+          {
+            "slug": "en-country-selector",
+            "selector": "div.c-heroteaser--small"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "multi-column-container",
+        "slots": [
+          {
+            "name": "section-heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "columns",
+            "type": "list",
+            "required": true
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": "div.o-container.has-columns"
+          },
+          {
+            "slug": "de",
+            "selector": "div.o-container.has-columns"
+          },
+          {
+            "slug": "en-press",
+            "selector": "div.o-container.has-columns"
+          },
+          {
+            "slug": "en-sustainability",
+            "selector": "div.o-container.has-columns"
+          },
+          {
+            "slug": "en-press-press-contacts",
+            "selector": "div.o-container.has-columns"
+          },
+          {
+            "slug": "en-investors-reports-presentations",
+            "selector": "div.o-container.has-columns"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "press-release-listing",
+        "slots": [
+          {
+            "name": "filter-bar",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items",
+            "type": "list",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-press-press-releases",
+            "selector": "div.o-container.tx_solr"
+          },
+          {
+            "slug": "en-press-press-releases-corporate-topics",
+            "selector": "div.o-container.tx_solr"
+          },
+          {
+            "slug": "en-sustainability",
+            "selector": "div.o-container.tx_solr"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "story-cluster",
+        "slots": [
+          {
+            "name": "cluster-heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "cards",
+            "type": "list",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-stories",
+            "selector": "section.c-cs-article-cluster__container"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1920px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "body > div.o-page",
+          "pages": [
+            "https://www.continental.com/en/",
+            "https://www.continental.com/en/press/press-releases/",
+            "https://www.continental.com/en/press/press-contacts/"
+          ]
+        },
+        {
+          "kind": "content",
+          "px": 1460,
+          "via": "max-width",
+          "selector": "div.o-page > main > div.o-container.is-white > div.o-container__content.container",
+          "pages": [
+            "https://www.continental.com/en/press/press-releases/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "div.c-heroteaser-fixed.c-heroteaser-fixed--slider > div.c-heroteaser-fixed__track > div.c-heroteaser-fixed__slides > div.c-heroteaser-fixed__slide",
+          "pages": [
+            "https://www.continental.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1460,
+          "via": "max-width",
+          "selector": "div.c-heroteaser-fixed__slides > div.c-heroteaser-fixed__slide > div > div.c-heroteaser-fixed__content",
+          "pages": [
+            "https://www.continental.com/en/",
+            "https://www.continental.com/en/press/press-releases/",
+            "https://www.continental.com/en/press/press-contacts/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 877,
+          "via": "fixed",
+          "selector": "div.col > div > div.u-text-h1.mb-0 > span.u-padded-text",
+          "pages": [
+            "https://www.continental.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 552,
+          "via": "fixed",
+          "selector": "div.c-search__results.row > div.col-md-12 > div.c-pagination.mt-5 > ul.c-pagination__wrap",
+          "pages": [
+            "https://www.continental.com/en/press/press-releases/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 507,
+          "via": "fixed",
+          "selector": "div.col > div > div.mt-2.c-heroteaser__description > span.u-padded-text",
+          "pages": [
+            "https://www.continental.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 318,
+          "via": "fixed",
+          "selector": "div.c-media__content.is-textpic > div.c-media__text.s-richtext > p > a.c-button--internal",
+          "pages": [
+            "https://www.continental.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 277,
+          "via": "fixed",
+          "selector": "a.c-teaser.is-layout-default > div.c-teaser__content.is-color-white > div.c-teaser__link.is-link > span",
+          "pages": [
+            "https://www.continental.com/en/",
+            "https://www.continental.com/en/press/press-releases/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 252,
+          "via": "fixed",
+          "selector": "div.col > div > div.c-heroteaser__links.mt-2 > a.c-heroteaser__link.c-button",
+          "pages": [
+            "https://www.continental.com/en/",
+            "https://www.continental.com/en/press/press-releases/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 0,
+          "selector": "body > div.o-page > main > div.c-heroteaser-fixed.c-heroteaser-fixed--slider",
+          "px": 1920
+        },
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 1,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 2,
+          "selector": "body > div.o-page > main > div.o-container.has-image",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 3,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 4,
+          "selector": "body > div.o-page > main > div.o-container.has-image",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/",
+          "section": 5,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-releases/",
+          "section": 0,
+          "selector": "body > div.o-page > main > div.c-heroteaser-fixed.dir-ltr",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-releases/",
+          "section": 1,
+          "selector": "body > div.o-page > main > div.o-container.pb-0",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-releases/",
+          "section": 2,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-releases/",
+          "section": 3,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 552
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-contacts/",
+          "section": 0,
+          "selector": "body > div.o-page > main > div.c-heroteaser.c-heroteaser--small",
+          "px": null
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-contacts/",
+          "section": 1,
+          "selector": "body > div.o-page > main > div.o-container.pb-0",
+          "px": 1460
+        },
+        {
+          "url": "https://www.continental.com/en/press/press-contacts/",
+          "section": 2,
+          "selector": "body > div.o-page > main > div.o-container.is-white",
+          "px": 1460
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1920 (https://www.continental.com/en/), 1460 (https://www.continental.com/en/press/press-releases/), 1920 (https://www.continental.com/en/press/press-contacts/) — decide per template in the inconsistency register",
+        "module cap 1920px on a single section (div.c-heroteaser-fixed.c-heroteaser-fixed--slider > div.c-heroteaser-fixed__track > div.c-heroteaser-fixed__slides > div.c-heroteaser-fixed__slide, https://www.continental.com/en/) — intent or mistake? register it",
+        "module cap 552px on a single section (div.c-search__results.row > div.col-md-12 > div.c-pagination.mt-5 > ul.c-pagination__wrap, https://www.continental.com/en/press/press-releases/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-08T16:14:19.458Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.continental.com/en/",
+          "https://www.continental.com/en/press/press-releases/",
+          "https://www.continental.com/en/press/press-contacts/"
+        ]
+      }
+    }
+  }
+}

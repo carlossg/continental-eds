@@ -1,0 +1,470 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-08T17:50:51.224Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T17:50:51.224Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "en",
+    "de",
+    "en-press",
+    "en-sustainability",
+    "en-press-press-contacts",
+    "en-country-selector",
+    "en-investors-reports-presentations",
+    "en-press-press-releases",
+    "en-press-press-releases-corporate-topics",
+    "en-stories"
+  ],
+  "steps": [
+    {
+      "slug": "en",
+      "path": "/en",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "highlight-band",
+          "edsBlockName": "highlight-band"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid"
+        },
+        {
+          "id": "split-media-band",
+          "edsBlockName": "split-media-band"
+        },
+        {
+          "id": "columns-band",
+          "edsBlockName": "columns-band"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "de",
+      "path": "/de",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "en"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "highlight-band",
+          "edsBlockName": "highlight-band",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "split-media-band",
+          "edsBlockName": "split-media-band",
+          "convertedBy": "en"
+        },
+        {
+          "id": "columns-band",
+          "edsBlockName": "columns-band",
+          "convertedBy": "en"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-press",
+      "path": "/en/press",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "listing-results",
+          "edsBlockName": "listing-results"
+        },
+        {
+          "id": "contact-card",
+          "edsBlockName": "contact-card"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "en"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "columns-band",
+          "edsBlockName": "columns-band",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-sustainability",
+      "path": "/en/sustainability",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "split-media-band",
+          "edsBlockName": "split-media-band",
+          "convertedBy": "en"
+        },
+        {
+          "id": "highlight-band",
+          "edsBlockName": "highlight-band",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-press-press-contacts",
+      "path": "/en/press/press-contacts",
+      "templateId": "en-press-press-contacts",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner",
+          "convertedBy": "en-sustainability"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "contact-card",
+          "edsBlockName": "contact-card",
+          "convertedBy": "en-press"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion",
+          "convertedBy": "en-press"
+        }
+      ]
+    },
+    {
+      "slug": "en-country-selector",
+      "path": "/en/country-selector",
+      "templateId": "en-press-press-contacts",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "region-selector",
+          "edsBlockName": "region-selector"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner",
+          "convertedBy": "en-sustainability"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion",
+          "convertedBy": "en-press"
+        }
+      ]
+    },
+    {
+      "slug": "en-investors-reports-presentations",
+      "path": "/en/investors/reports-presentations",
+      "templateId": "en-press-press-contacts",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "downloads-table",
+          "edsBlockName": "downloads-table"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner",
+          "convertedBy": "en-sustainability"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion",
+          "convertedBy": "en-press"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-press-press-releases",
+      "path": "/en/press/press-releases",
+      "templateId": "en-press-press-releases",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner",
+          "convertedBy": "en-sustainability"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "listing-results",
+          "edsBlockName": "listing-results",
+          "convertedBy": "en-press"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "contact-card",
+          "edsBlockName": "contact-card",
+          "convertedBy": "en-press"
+        }
+      ]
+    },
+    {
+      "slug": "en-press-press-releases-corporate-topics",
+      "path": "/en/press/press-releases/corporate-topics",
+      "templateId": "en-press-press-releases",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner",
+          "convertedBy": "en-sustainability"
+        },
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "listing-results",
+          "edsBlockName": "listing-results",
+          "convertedBy": "en-press"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "contact-card",
+          "edsBlockName": "contact-card",
+          "convertedBy": "en-press"
+        }
+      ]
+    },
+    {
+      "slug": "en-stories",
+      "path": "/en/stories",
+      "templateId": "en-press-press-releases",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "content-section",
+          "edsBlockName": "content-section",
+          "convertedBy": "en"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cards-grid",
+          "edsBlockName": "cards-grid",
+          "convertedBy": "en"
+        },
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing",
+          "convertedBy": "en"
+        }
+      ]
+    }
+  ]
+}

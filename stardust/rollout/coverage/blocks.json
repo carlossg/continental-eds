@@ -1,0 +1,383 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-08T17:50:51.111Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T17:50:51.111Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts"
+      ],
+      "usedByPages": [
+        "en-country-selector",
+        "en-investors-reports-presentations",
+        "en-press",
+        "en-press-press-contacts"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards-grid",
+      "label": "cards-grid",
+      "kind": "module",
+      "signature": "module:cards-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-investors-reports-presentations",
+        "en-press",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-stories",
+        "en-sustainability"
+      ],
+      "instanceCount": 8,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "cards-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "columns-band",
+      "label": "columns-band",
+      "kind": "module",
+      "signature": "module:columns-band",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-press"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "columns-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-card",
+      "label": "contact-card",
+      "kind": "module",
+      "signature": "module:contact-card",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "en-press",
+        "en-press-press-contacts",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "contact-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-section",
+      "label": "content-section",
+      "kind": "module",
+      "signature": "module:content-section",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-country-selector",
+        "en-investors-reports-presentations",
+        "en-press",
+        "en-press-press-contacts",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-stories",
+        "en-sustainability"
+      ],
+      "instanceCount": 10,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "content-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "downloads-table",
+      "label": "downloads-table",
+      "kind": "module",
+      "signature": "module:downloads-table",
+      "source": null,
+      "usedByTemplates": [
+        "en-press-press-contacts"
+      ],
+      "usedByPages": [
+        "en-investors-reports-presentations"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "downloads-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-country-selector",
+        "en-investors-reports-presentations",
+        "en-press",
+        "en-press-press-contacts",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-stories",
+        "en-sustainability"
+      ],
+      "instanceCount": 10,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-banner",
+      "label": "hero-banner",
+      "kind": "module",
+      "signature": "module:hero-banner",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "en-country-selector",
+        "en-investors-reports-presentations",
+        "en-press-press-contacts",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-sustainability"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-slider",
+      "label": "hero-slider",
+      "kind": "module",
+      "signature": "module:hero-slider",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-press"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "highlight-band",
+      "label": "highlight-band",
+      "kind": "module",
+      "signature": "module:highlight-band",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-sustainability"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "highlight-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "listing-results",
+      "label": "listing-results",
+      "kind": "module",
+      "signature": "module:listing-results",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "en-press",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "listing-results",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-listing",
+      "label": "news-listing",
+      "kind": "module",
+      "signature": "module:news-listing",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-releases"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-press",
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-stories"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "news-listing",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "region-selector",
+      "label": "region-selector",
+      "kind": "module",
+      "signature": "module:region-selector",
+      "source": null,
+      "usedByTemplates": [
+        "en-press-press-contacts"
+      ],
+      "usedByPages": [
+        "en-country-selector"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "region-selector",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "split-media-band",
+      "label": "split-media-band",
+      "kind": "module",
+      "signature": "module:split-media-band",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-sustainability"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "split-media-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser-grid",
+      "label": "teaser-grid",
+      "kind": "module",
+      "signature": "module:teaser-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-press-press-contacts"
+      ],
+      "usedByPages": [
+        "de",
+        "en",
+        "en-investors-reports-presentations",
+        "en-press",
+        "en-press-press-contacts",
+        "en-sustainability"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "teaser-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

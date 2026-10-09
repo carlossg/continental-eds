@@ -1,0 +1,7 @@
+/* downloads-table block styles — scoped container reset; component rules in styles/styles.css */
+.downloads-table-wrapper,
+.downloads-table.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

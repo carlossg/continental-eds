@@ -1,0 +1,76 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "en",
+        "en-press-press-releases",
+        "en-press-press-contacts"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-08T17:45:13.474Z",
+      "endedAt": "2026-10-08T17:45:13.653Z",
+      "verdict": "10 pages mapped (3 archetypes, 7 siblings), 0 collisions"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "en"
+      ],
+      "pages": 4,
+      "startedAt": "2026-10-08T17:45:13.653Z",
+      "endedAt": "2026-10-08T17:50:49.132Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0 → stardust/migrated/"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "en-press-press-releases"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-08T17:45:13.653Z",
+      "endedAt": "2026-10-08T17:50:49.132Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0 → stardust/migrated/"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "en-press-press-contacts"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-08T17:45:13.653Z",
+      "endedAt": "2026-10-08T17:50:49.132Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0 → stardust/migrated/"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "templates": [
+        "en",
+        "en-press-press-releases",
+        "en-press-press-contacts"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-08T17:50:49.132Z",
+      "endedAt": "2026-10-08T17:50:50.524Z",
+      "verdict": "397 assets bundled, 0 missing"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "en",
+        "en-press-press-releases",
+        "en-press-press-contacts"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-08T17:50:49.132Z",
+      "endedAt": "2026-10-08T17:50:50.524Z",
+      "verdict": "10/10 pages advanced to migrated; gate-evidence collected"
+    }
+  }
+}

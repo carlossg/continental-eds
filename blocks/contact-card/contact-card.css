@@ -1,0 +1,7 @@
+/* contact-card block styles — scoped container reset; component rules in styles/styles.css */
+.contact-card-wrapper,
+.contact-card.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

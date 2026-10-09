@@ -1,0 +1,32 @@
+{"ts":"2026-10-08T15:59:00Z","skill":"stardust:replica","phase":"extract","event":"start"}
+{"ts":"2026-10-08T15:59:05Z","skill":"stardust:extract","phase":"prep","event":"start"}
+{"ts":"2026-10-08T16:15:44Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"10/10 live; uncaptured first-level targets: de 254, en 224"}
+{"ts":"2026-10-08T16:15:47Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"10/10 live; uncaptured first-level targets: de 254, en 224"}
+{"ts":"2026-10-08T16:15:55Z","skill":"stardust:replica","phase":"preserve-direction","event":"start"}
+{"ts":"2026-10-08T16:16:45Z","skill":"stardust:dynamics","phase":"detect","event":"start"}
+{"ts":"2026-10-08T16:19:21Z","skill":"stardust:dynamics","phase":"detect","event":"end","detail":"44 findings across 3 archetypes"}
+{"ts":"2026-10-08T16:19:24Z","skill":"stardust:dynamics","phase":"triage","event":"start"}
+{"ts":"2026-10-08T16:19:28Z","skill":"stardust:dynamics","phase":"triage","event":"end","detail":"9 curated features; 0 decided-out; interim/self dispositions"}
+{"ts":"2026-10-08T16:19:31Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; empty register (pure replica); 9 dynamic features triaged"}
+{"ts":"2026-10-08T16:19:35Z","skill":"stardust:replica","phase":"recreate","event":"start"}
+{"ts":"2026-10-08T16:39:50Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"3 archetypes at 1440 and 360 + cap-probe + motion-compare"}
+{"ts":"2026-10-08T16:40:38Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"en, en-press-press-releases, en-press-press-contacts prototyped"}
+{"ts":"2026-10-08T17:45:13Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"3/3 archetypes PASS @1440/360/2560: en 1.32%/2.45%, pr 0.00%/0.05%, pc 0.01%/0.05%; 0 clipped, 0 structural, motion 100% parity","artifact":"stardust/replica/progress.json"}
+{"ts":"2026-10-08T17:45:13Z","skill":"stardust:replica","phase":"handoff","event":"start"}
+{"ts":"2026-10-08T17:45:13Z","skill":"stardust:migrate","phase":"plan","event":"start"}
+{"ts":"2026-10-08T17:45:13Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"10 pages mapped across 3 templates (3 Branch A archetypes, 7 Branch A' siblings)","artifact":"stardust/migrate/progress.json"}
+{"ts":"2026-10-08T17:45:13Z","skill":"stardust:migrate","phase":"render","event":"start"}
+{"ts":"2026-10-08T17:50:49Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"rendered 10 pages (3 Branch A archetypes, 7 Branch A' siblings), 0 refused","artifact":"stardust/migrated"}
+{"ts":"2026-10-08T17:50:49Z","skill":"stardust:migrate","phase":"assets","event":"start"}
+{"ts":"2026-10-08T17:50:49Z","skill":"stardust:migrate","phase":"assets","event":"end","detail":"397 self-hosted media/font/canon assets bundled under stardust/migrated/assets/","artifact":"stardust/migrated/assets"}
+{"ts":"2026-10-08T17:50:49Z","skill":"stardust:migrate","phase":"state-and-report","event":"start"}
+{"ts":"2026-10-08T17:50:50Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"10/10 pages migrated and verified with delivery-lint 0 P0/P1 and content-count 0 structural 🔴","artifact":"stardust/migrated"}
+{"ts":"2026-10-08T17:50:50Z","skill":"stardust:rollout","phase":"A-inventory","event":"start"}
+{"ts":"2026-10-08T17:50:50Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"10 pages inventoried across 3 templates (en, en-press-press-releases, en-press-press-contacts)","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"10 distinct module blocks deduplicated from 43 instances; representative-first conversion plan written","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"9 dynamic features verified against stardust/migrated/ (0 decided-out assumptions)","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"C-deliver","event":"start"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:rollout","phase":"C-deliver","event":"blocked","detail":"No EDS target repository (blocks/, scripts/aem.js, fstab.yaml) or DA_TOKEN configured in workspace; all 10 pages migrated and verified under stardust/migrated/ with conversion plan at stardust/rollout/plan.json","artifact":"stardust/rollout/plan.json","next":"Configure EDS target repo + DA_TOKEN and run $stardust rollout to execute C-deliver","owner":"user"}
+{"ts":"2026-10-08T17:50:51Z","skill":"stardust:replica","phase":"handoff","event":"blocked","detail":"Migrate complete (10/10 pages in stardust/migrated/) and Rollout Phases A/B/B2 complete (10 distinct blocks planned); halted at rollout C-deliver pending EDS target repository and DA_TOKEN","artifact":"stardust/rollout/plan.json","next":"Configure EDS target repo + DA_TOKEN and run $stardust rollout","owner":"user"}

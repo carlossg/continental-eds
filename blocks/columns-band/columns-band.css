@@ -1,0 +1,7 @@
+/* columns-band block styles — scoped container reset; component rules in styles/styles.css */
+.columns-band-wrapper,
+.columns-band.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

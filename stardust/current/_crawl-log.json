@@ -1,0 +1,1287 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 10,
+    "concurrency": 4,
+    "originRedirect": {
+      "from": "https://continental.com",
+      "to": "https://www.continental.com"
+    }
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.continental.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/de",
+        "slug": "de",
+        "linked": 254,
+        "uncaptured": [
+          "/de/company/suppliers/psuite",
+          "/de/country-selector",
+          "/de/impressum",
+          "/de/investoren",
+          "/de/investoren/aktie",
+          "/de/investoren/aktie/aktiendaten",
+          "/de/investoren/aktie/aktienkursentwicklung",
+          "/de/investoren/aktie/aktionaersstruktur",
+          "/de/investoren/aktie/analystenempfehlungen-q2-2025",
+          "/de/investoren/aktie/dividende",
+          "/de/investoren/aktie/konsens-q2-2026",
+          "/de/investoren/aktie/nachhaltigkeit-bei-continental",
+          "/de/investoren/aktie/warum-in-continental-investieren",
+          "/de/investoren/berichte-praesentationen",
+          "/de/investoren/berichte-praesentationen/factbook",
+          "/de/investoren/berichte-praesentationen/finanzberichte",
+          "/de/investoren/berichte-praesentationen/finanzkennzahlen",
+          "/de/investoren/fremdkapital-rating",
+          "/de/investoren/fremdkapital-rating/2024-anleihe-coupon-1125-prozent-1",
+          "/de/investoren/fremdkapital-rating/2026-anleihe-coupon-2500-prozent",
+          "/de/investoren/fremdkapital-rating/anleihen",
+          "/de/investoren/fremdkapital-rating/anleihen/anleihen-performance",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-a30vq4-isin-xs2558972415",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-a351pu-isin-xs2630117328",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-a4dfm0-isin-xs3075393499",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-a4dfw3-isin-xs3173656243",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-a5gs05-isin-xs3478305777",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-isin-xs2910509566",
+          "/de/investoren/fremdkapital-rating/anleihen/wkn-isin-xs2910509566-1",
+          "/de/investoren/fremdkapital-rating/continental-kreditrating",
+          "/de/investoren/fremdkapital-rating/debt-issuance-programme",
+          "/de/investoren/fremdkapital-rating/finanzierungsstragie-und-laufzeitenprofil",
+          "/de/investoren/fremdkapital-rating/laufzeitenprofil-anleihen",
+          "/de/investoren/fremdkapital-rating/rating-finanzierungsstrategie",
+          "/de/investoren/ir-kontakt",
+          "/de/investoren/meldungen",
+          "/de/investoren/meldungen/ad-hoc-meldungen",
+          "/de/investoren/meldungen/ir-pressemeldungen",
+          "/de/investoren/meldungen/managers-transactions",
+          "/de/investoren/meldungen/managers-transactions/detail",
+          "/de/investoren/meldungen/stimmrechtsmeldungen",
+          "/de/investoren/meldungen/stimmrechtsmeldungen/detail",
+          "/de/investoren/praesentationen",
+          "/de/investoren/service",
+          "/de/investoren/ueber-uns",
+          "/de/investoren/veranstaltungen",
+          "/de/investoren/veranstaltungen/capital-market-update",
+          "/de/investoren/veranstaltungen/continental-on-the-move/details",
+          "/de/investoren/veranstaltungen/ergebnisse",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-9-monate-2023",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-9m-2022",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-9m-2024",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-9m-2025",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-h1-2023",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-h1-2024",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-h1-2025",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-q1-2023",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-q1-2024",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-q1-2025",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-q1-2026",
+          "/de/investoren/veranstaltungen/ergebnisse/ergebnisse-q2-2026",
+          "/de/investoren/veranstaltungen/ergebnisse/vorlaeufige-ergebnisse-2022",
+          "/de/investoren/veranstaltungen/ergebnisse/vorlaeufige-jahresergebnisse-2023",
+          "/de/investoren/veranstaltungen/ergebnisse/vorlaeufige-jahresergebnisse-2024",
+          "/de/investoren/veranstaltungen/ergebnisse/vorlaeufige-jahresergebnisse-2025",
+          "/de/investoren/veranstaltungen/finanzkalender",
+          "/de/investoren/veranstaltungen/hauptversammlung",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2020",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2020/stimmrechtsausuebung",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2020/terminplan-hv-2020",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2021",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2022",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2023",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2023/fragen-stellungnahmen-und-widerspruch",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2023/stimmrechtsausuebung",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2023/terminplan-hv-2023",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2024",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2024/terminplan-hv-2024",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2025",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2025/terminplan-hv-2025",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2026",
+          "/de/investoren/veranstaltungen/hauptversammlung/hauptversammlung-2026/terminplan-hv-2026",
+          "/de/investoren/veranstaltungen/kapitalmarkttag-2023",
+          "/de/investoren/veranstaltungen/kapitalmarkttag-2025",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/autonomous-mobility-and-safety",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/capital-market-days",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/cmd-2020-experten-session-automotive-technologies",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/contitech",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/kapitalmarkttage",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/nachhaltigkeit-und-umwelt",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/pressekonferenz",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/pressekonferenz/vorstandspraesentationen-kapitalmarkttage",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/reifen",
+          "/de/investoren/veranstaltungen/kapitalmarkttage-2020/vehicle-networking-and-information-vni",
+          "/de/investoren/veranstaltungen/spin-off-automotive-uebersicht",
+          "/de/investoren/veranstaltungen/spin-off-automotive-uebersicht/erster-blick-automotive",
+          "/de/investoren/veranstaltungen/spin-off-automotive-uebersicht/spin-off-automotive",
+          "/de/investoren/vitesco-technologies-spin-off",
+          "/de/karriere",
+          "/de/karriere/arbeiten-bei-continental",
+          "/de/karriere/arbeiten-bei-continental/benefits",
+          "/de/karriere/arbeiten-bei-continental/benefits/mobiles-arbeiten",
+          "/de/karriere/arbeiten-bei-continental/benefits/sabbatical",
+          "/de/karriere/arbeiten-bei-continental/karrierewege",
+          "/de/karriere/arbeiten-bei-continental/people-blog",
+          "/de/karriere/arbeiten-bei-continental/standorte",
+          "/de/karriere/arbeiten-bei-continental/standorte/continental-unternehmenszentrale",
+          "/de/karriere/arbeiten-bei-continental/standorte/dannenberg",
+          "/de/karriere/arbeiten-bei-continental/standorte/eislingen",
+          "/de/karriere/arbeiten-bei-continental/standorte/hamburg",
+          "/de/karriere/arbeiten-bei-continental/standorte/hannover-stoecken",
+          "/de/karriere/arbeiten-bei-continental/standorte/hannover-vinnhorst",
+          "/de/karriere/arbeiten-bei-continental/standorte/korbach",
+          "/de/karriere/arbeiten-bei-continental/standorte/weissbach",
+          "/de/karriere/arbeiten-bei-continental/unternehmenskultur-und-werte",
+          "/de/karriere/arbeiten-bei-continental/unternehmenskultur-und-werte/diversitaet",
+          "/de/karriere/bewerbungsprozess",
+          "/de/karriere/ihr-karrierelevel",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/ausbildung-leicht-gemacht",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/it-software",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/nachhaltig-fuer-dich",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/nachhaltig-fuer-dich/nachhaltige-aus-und-weiterbildung",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/nachhaltig-fuer-dich/nachhaltige-azubiprojekte",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/nachhaltig-fuer-dich/nachhaltige-konzernprojekte",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/nachhaltig-fuer-dich/weitere-nachhaltige-projekte",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/technik",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich/vielfaeltig-fuer-azubis",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich/vielfaeltig-fuer-durchstartende",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich/vielfaeltig-fuer-kinder",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich/vielfaeltig-fuer-schuelerinnen",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/vielfaeltig-fuer-dich/vielfaeltig-fuer-weibliche-talente",
+          "/de/karriere/ihr-karrierelevel/ausbildung-duales-studium/wirtschaft",
+          "/de/karriere/ihr-karrierelevel/berufserfahrene",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/direkteinstieg",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/continental-makers-garage",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/explore-tires-graduate-programs",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/explore-tires-manufacturing-controlling-graduate-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/explore-tires-manufacturing-engineering-graduate-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/explore-tires-manufacturing-it-graduate-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/explore-tires-supply-chain-management-graduate-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/marketing-sales-graduate-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/global-trainee-programme/ready-for-continental-program",
+          "/de/karriere/ihr-karrierelevel/studierende-absolvierende/studierende-bei-continental",
+          "/de/karriere/kontakt-faqs",
+          "/de/karriere/kontakt-faqs/kontakt",
+          "/de/karriere/unsere-jobvielfalt",
+          "/de/karriere/unsere-jobvielfalt/it-und-cybersecurity",
+          "/de/karriere/unsere-jobvielfalt/operating",
+          "/de/karriere/unsere-jobvielfalt/quality",
+          "/de/karriere/unsere-jobvielfalt/sales",
+          "/de/karriere/unsere-jobvielfalt/software-engineering-und-systems-engineering",
+          "/de/karriere/veranstaltungen",
+          "/de/karriere/woran-wir-arbeiten",
+          "/de/karriere/woran-wir-arbeiten/industrieloesungen",
+          "/de/karriere/woran-wir-arbeiten/materialentwicklung",
+          "/de/karriere/woran-wir-arbeiten/reifenvielfalt",
+          "/de/karriere/woran-wir-arbeiten/smarte-reifen",
+          "/de/meta/cookie-richtlinie",
+          "/de/meta/datenschutz",
+          "/de/meta/ihr-kontakt-zu-uns",
+          "/de/meta/kontakt-lieferanten",
+          "/de/meta/kontakt-nachhaltigkeit",
+          "/de/meta/produkte",
+          "/de/meta/rechtliche-hinweise",
+          "/de/meta/rss",
+          "/de/nachhaltigkeit",
+          "/de/nachhaltigkeit/berichterstattung-und-downloads",
+          "/de/nachhaltigkeit/rahmenwerk/verantwortungsvolle-wertschoepfungskette/achtung-der-menschenrechte",
+          "/de/presse",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2015",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2016",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2018",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2018/mobilitaetsstudie-2018",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2018/pressebilder-mobilitaetsstudie",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2018/pressekontakt",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2020",
+          "/de/presse/initiativen-umfragen/continental-mobilitaetsstudien/mobilitaetsstudie-2020/pressekontakt",
+          "/de/presse/mediathek",
+          "/de/presse/mediathek/bilder",
+          "/de/presse/mediathek/the-continental-tires-garage",
+          "/de/presse/mediathek/videos",
+          "/de/presse/mediendatenbank/presse-footage",
+          "/de/presse/messen-events",
+          "/de/presse/messen-events/events",
+          "/de/presse/messen-events/messen",
+          "/de/presse/messen-events/quartalsveroeffentlichungen",
+          "/de/presse/pressemitteilungen",
+          "/de/presse/pressemitteilungen/continental-ct-2026",
+          "/de/presse/pressemitteilungen/fahrzeugtypen",
+          "/de/presse/pressemitteilungen/halbjahresergebnisse-2026",
+          "/de/presse/pressemitteilungen/konzernthemen",
+          "/de/presse/pressemitteilungen/presse-reifen",
+          "/de/presse/pressemitteilungen/produkte-technologien",
+          "/de/presse/presskontakte",
+          "/de/presse/studien-publikationen",
+          "/de/presse/studien-publikationen/contitech",
+          "/de/presse/studien-publikationen/sonstige-publikationen",
+          "/de/presse/studien-publikationen/zahlen-daten-fakten",
+          "/de/produkte-und-innovationen",
+          "/de/produkte-und-innovationen/contitech",
+          "/de/produkte-und-innovationen/produkte",
+          "/de/produkte-und-innovationen/reifen",
+          "/de/produkte-und-innovationen/reifen/conti-ecoplus-ht3",
+          "/de/produkte-und-innovationen/reifen/conti-efficientpro-gen-3",
+          "/de/produkte-und-innovationen/reifen/conti-urban",
+          "/de/stories",
+          "/de/unternehmen",
+          "/de/unternehmen/corporate-governance",
+          "/de/unternehmen/corporate-governance/aufsichtsrat-1",
+          "/de/unternehmen/corporate-governance/grundsaetze-und-erklaerungen",
+          "/de/unternehmen/corporate-governance/grundsaetze-und-erklaerungen/entsprechenserklaerungen-vorjahre",
+          "/de/unternehmen/corporate-governance/integrity-hotline",
+          "/de/unternehmen/corporate-governance/satzung",
+          "/de/unternehmen/corporate-governance/vision-mission",
+          "/de/unternehmen/corporate-governance/vision-mission/code-of-conduct",
+          "/de/unternehmen/corporate-governance/vorstand",
+          "/de/unternehmen/corporate-governance/vorstand/christian-koetz",
+          "/de/unternehmen/corporate-governance/vorstand/philip-nelles",
+          "/de/unternehmen/corporate-governance/vorstand/roland-welzbacher",
+          "/de/unternehmen/corporate-governance/vorstand/ulrike-hintze",
+          "/de/unternehmen/geschichte",
+          "/de/unternehmen/geschichte/blitzlichter-der-unternehmensgeschichte",
+          "/de/unternehmen/geschichte/meilensteine",
+          "/de/unternehmen/lieferanten",
+          "/de/unternehmen/lieferanten/allgemeine-informationen",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/allgemeine-geschaeftsbedingungen-einkauf",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/anforderungen-an-die-ergonomie",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/anforderungen-an-die-ergonomie/anforderungen-an-die-arbeitsorganisation",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/anforderungen-an-die-ergonomie/anforderungen-an-die-physische-exposition",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/anforderungen-an-die-ergonomie/anforderungen-an-die-umgebungsbedingungen",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/anforderungen-an-die-ergonomie/arten-von-arbeitsplaetzen",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/reach-verordnung",
+          "/de/unternehmen/lieferanten/allgemeine-informationen/verhaltenskodex-fuer-geschaeftspartner",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/einkauf-von-nicht-produktionsmaterial",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/einkauf-von-nicht-produktionsmaterial/contact-form-non-production-material-team",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/elektronische-uebermittlung-von-lieferantenrechnungen",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/kontakt-produktionsmaterial",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/kontaktformular-einkauf-nicht-produktionsmaterial",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/kontaktformular-einkauf-rohmaterial-abteilung",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/produktionsmaterial-contitech",
+          "/de/unternehmen/lieferanten/einkauf-nach-konzernbereichen/produktionsmaterial-reifen",
+          "/de/unternehmen/lieferanten/nachhaltigkeit-einkauf",
+          "/de/unternehmen/lieferanten/nachhaltigkeit-einkauf/lieferantenanfragen",
+          "/de/unternehmen/lieferanten/nachhaltigkeit-einkauf/verantwortungsvolle-wertschoepfungskette",
+          "/de/unternehmen/marke-continental",
+          "/de/unternehmen/technische-compliance",
+          "/de/unternehmen/technische-compliance/technische-compliance-fuer-geschaeftspartner"
+        ]
+      },
+      {
+        "root": "/en",
+        "slug": "en",
+        "linked": 232,
+        "uncaptured": [
+          "/en/career",
+          "/en/career/application-process",
+          "/en/career/contact-faqs",
+          "/en/career/contact-faqs/contact",
+          "/en/career/our-range-of-jobs",
+          "/en/career/our-range-of-jobs/it",
+          "/en/career/our-range-of-jobs/operating",
+          "/en/career/our-range-of-jobs/quality",
+          "/en/career/our-range-of-jobs/sales",
+          "/en/career/our-range-of-jobs/software-engineering-and-system-engineering",
+          "/en/career/what-we-are-working-on",
+          "/en/career/what-we-are-working-on/industrial-solutions",
+          "/en/career/what-we-are-working-on/material-development",
+          "/en/career/what-we-are-working-on/range-of-tires",
+          "/en/career/what-we-are-working-on/smart-tires",
+          "/en/career/working-at-continental",
+          "/en/career/working-at-continental/benefits",
+          "/en/career/working-at-continental/benefits/mobile-working",
+          "/en/career/working-at-continental/benefits/sabbatical",
+          "/en/career/working-at-continental/corporate-culture-values",
+          "/en/career/working-at-continental/corporate-culture-values/diversity",
+          "/en/career/working-at-continental/people-blog",
+          "/en/career/working-at-continental/your-development",
+          "/en/career/your-career-level",
+          "/en/career/your-career-level/experienced-professionals",
+          "/en/career/your-career-level/students-and-graduates",
+          "/en/career/your-career-level/students-and-graduates/direct-entry",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/continental-makers-garage",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tire-manufacturing-controlling-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tire-manufacturing-engineering-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tire-quality-management-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tire-supply-chain-management-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tires-graduate-programs",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/explore-tires-manufacturing-it-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/marketing-and-sales-graduate-program",
+          "/en/career/your-career-level/students-and-graduates/global-trainee-programs/ready-for-continental-program",
+          "/en/career/your-career-level/students-and-graduates/students-at-continental",
+          "/en/company",
+          "/en/company/continental-brand",
+          "/en/company/corporate-governance",
+          "/en/company/corporate-governance/articles-of-incorporation",
+          "/en/company/corporate-governance/executive-board",
+          "/en/company/corporate-governance/executive-board/christian-koetz",
+          "/en/company/corporate-governance/executive-board/philip-nelles",
+          "/en/company/corporate-governance/executive-board/roland-welzbacher",
+          "/en/company/corporate-governance/executive-board/ulrike-hintze",
+          "/en/company/corporate-governance/integrity-hotline",
+          "/en/company/corporate-governance/principles-and-declarations",
+          "/en/company/corporate-governance/principles-and-declarations/corporate-governance-principles",
+          "/en/company/corporate-governance/principles-and-declarations/declarations-of-continental-ag-pursuant-to-section-161-of-the-german-stock-corporation-act-aktg-of-previous-years",
+          "/en/company/corporate-governance/supervisory-board-1",
+          "/en/company/corporate-governance/vision-mission",
+          "/en/company/for-suppliers/contact-form-raw-material-purchasing-team-19050-1",
+          "/en/company/history",
+          "/en/company/history/company-flashbacks",
+          "/en/company/history/milestones",
+          "/en/company/suppliers",
+          "/en/company/suppliers/general-information",
+          "/en/company/suppliers/general-information/business-partner-code-of-conduct",
+          "/en/company/suppliers/general-information/ergonomics-requirements",
+          "/en/company/suppliers/general-information/ergonomics-requirements/requirements-to-environmental-conditions",
+          "/en/company/suppliers/general-information/ergonomics-requirements/requirements-to-work-organization",
+          "/en/company/suppliers/general-information/ergonomics-requirements/requirements-to-work-organization-1",
+          "/en/company/suppliers/general-information/ergonomics-requirements/types-of-workplace-to-be-linked",
+          "/en/company/suppliers/general-information/general-terms-and-conditions-of-purchase",
+          "/en/company/suppliers/general-information/reach-legislation",
+          "/en/company/suppliers/psuite",
+          "/en/company/suppliers/purchasing-by-group-sector",
+          "/en/company/suppliers/purchasing-by-group-sector/electronic-submission-of-supplier-invoices",
+          "/en/company/suppliers/purchasing-by-group-sector/non-production-material-purchasing",
+          "/en/company/suppliers/purchasing-by-group-sector/non-production-material-purchasing/contact-form-non-production-material-team",
+          "/en/company/suppliers/purchasing-by-group-sector/production-material-contitech",
+          "/en/company/suppliers/purchasing-by-group-sector/production-material-tires",
+          "/en/company/suppliers/sustainability-purchasing",
+          "/en/company/suppliers/sustainability-purchasing/responsible-value-chain",
+          "/en/company/suppliers/sustainability-purchasing/supplier-inquiries",
+          "/en/company/technical-compliance",
+          "/en/company/technical-compliance/technical-compliance-for-business-partners",
+          "/en/general/contact-suppliers",
+          "/en/general/contact-us",
+          "/en/general/cookie-policy",
+          "/en/general/data-protection",
+          "/en/general/legal-notice",
+          "/en/general/products",
+          "/en/general/rss",
+          "/en/general/site-notice",
+          "/en/general/sustainability-contact-form",
+          "/en/investors",
+          "/en/investors/about-us",
+          "/en/investors/debt-and-rating",
+          "/en/investors/debt-and-rating/2026-bond-coupon-2500-percent",
+          "/en/investors/debt-and-rating/bonds-performance",
+          "/en/investors/debt-and-rating/continentals-credit-rating",
+          "/en/investors/debt-and-rating/debt-issuance-programme",
+          "/en/investors/debt-and-rating/financing-strategy-and-maturity-profile",
+          "/en/investors/debt-and-rating/maturity-of-bonds",
+          "/en/investors/debt-and-rating/rating-financing-strategy",
+          "/en/investors/events",
+          "/en/investors/events/annual-shareholders-meeting",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2020",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2020/exercise-voting-rights",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2020/questions-and-answers-related-to-the-postponement-of-the-annual-shareholders-meeting-to-july-14-2020",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2020/questions-and-objections",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2021",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2022",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2023",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2023/exercise-voting-rights",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2023/questions-video-statements-and-objections",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2023/schedule-annual-shareholders-meeting",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2024",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2024/schedule-annual-shareholders-meeting",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2025",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2025/schedule-annual-shareholders-meeting",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2026",
+          "/en/investors/events/annual-shareholders-meeting/annual-shareholders-meeting-2026/schedule-annual-shareholders-meeting",
+          "/en/investors/events/capital-market-day-2023",
+          "/en/investors/events/capital-market-day-2025",
+          "/en/investors/events/capital-market-days-2020",
+          "/en/investors/events/capital-market-days-2020/autonomous-mobility-and-safety",
+          "/en/investors/events/capital-market-days-2020/capital-market-days/nikolai-setzer",
+          "/en/investors/events/capital-market-days-2020/cmd-2020-expert-session-automotive-technologies",
+          "/en/investors/events/capital-market-days-2020/expert-session-contitech",
+          "/en/investors/events/capital-market-days-2020/expert-session-sustainability",
+          "/en/investors/events/capital-market-days-2020/expert-session-tires",
+          "/en/investors/events/capital-market-days-2020/press-conference",
+          "/en/investors/events/capital-market-days-2020/press-conference/executive-board-presentations-on-december-16",
+          "/en/investors/events/capital-market-days-2020/vehicle-networking-and-information",
+          "/en/investors/events/capital-market-update",
+          "/en/investors/events/continental-on-the-move/details",
+          "/en/investors/events/financial-calendar",
+          "/en/investors/events/results",
+          "/en/investors/events/results/9m-2022-results",
+          "/en/investors/events/results/9m-2023-results",
+          "/en/investors/events/results/preliminary-full-year-results-2022",
+          "/en/investors/events/results/preliminary-full-year-results-2023",
+          "/en/investors/events/results/preliminary-results-fy-2024",
+          "/en/investors/events/results/results-9m-2024",
+          "/en/investors/events/results/results-9m-2025",
+          "/en/investors/events/results/results-fy-2025",
+          "/en/investors/events/results/results-h1-2023",
+          "/en/investors/events/results/results-h1-2024",
+          "/en/investors/events/results/results-h1-2025",
+          "/en/investors/events/results/results-q1-2023",
+          "/en/investors/events/results/results-q1-2024",
+          "/en/investors/events/results/results-q1-2025",
+          "/en/investors/events/results/results-q1-2026",
+          "/en/investors/events/results/results-q2-2026",
+          "/en/investors/events/spin-off-automotive",
+          "/en/investors/events/spin-off-automotive/deep-dive-business-area-architecture-and-network-solutions",
+          "/en/investors/events/spin-off-automotive/first-glance-automotive-1",
+          "/en/investors/events/spin-off-automotive/spin-off-automotive",
+          "/en/investors/ir-contact",
+          "/en/investors/ir-news",
+          "/en/investors/ir-news/ad-hoc-news",
+          "/en/investors/ir-news/ir-press-releases",
+          "/en/investors/ir-news/managers-transactions",
+          "/en/investors/ir-news/voting-rights",
+          "/en/investors/ir-news/voting-rights/detail",
+          "/en/investors/presentations",
+          "/en/investors/reports-presentations/fact-book",
+          "/en/investors/reports-presentations/financial-key-figures",
+          "/en/investors/reports-presentations/financial-reports",
+          "/en/investors/services",
+          "/en/investors/shares",
+          "/en/investors/shares/analyst-recommendations-q2-2026",
+          "/en/investors/shares/consensus-q2-2026",
+          "/en/investors/shares/dividend",
+          "/en/investors/shares/share-data",
+          "/en/investors/shares/share-price-chart",
+          "/en/investors/shares/shareholder-structure",
+          "/en/investors/shares/sustainability-at-continental",
+          "/en/investors/shares/why-invest-in-continental",
+          "/en/investors/vitesco-technologies-spin-off",
+          "/en/plugins/rss-list/detail",
+          "/en/press/fairs-events",
+          "/en/press/fairs-events/events",
+          "/en/press/fairs-events/fairs",
+          "/en/press/fairs-events/quarterly-publications",
+          "/en/press/media-library",
+          "/en/press/media-library/pictures",
+          "/en/press/media-library/press-footage",
+          "/en/press/media-library/the-continental-tires-garage",
+          "/en/press/media-library/videos",
+          "/en/press/press-releases/continental-ct-2026",
+          "/en/press/press-releases/press-tires",
+          "/en/press/press-releases/products-technologies",
+          "/en/press/press-releases/results-first-half-2026",
+          "/en/press/press-releases/vehicle-types",
+          "/en/press/studies-publications",
+          "/en/press/studies-publications/continental-mobility-studies",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2015",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2016",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2018",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2018/press-contacts",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2018/press-pictures-and-charts",
+          "/en/press/studies-publications/continental-mobility-studies/mobility-study-2018/the-2018-mobility-study",
+          "/en/press/studies-publications/continental-mobility-studies/mobilitystudy2020-from-driver-to-passenger",
+          "/en/press/studies-publications/continental-mobility-studies/mobilitystudy2020-from-driver-to-passenger/assistance-systems",
+          "/en/press/studies-publications/continental-mobility-studies/mobilitystudy2020-from-driver-to-passenger/benefits-of-autonomous-driving",
+          "/en/press/studies-publications/continental-mobility-studies/mobilitystudy2020-from-driver-to-passenger/data-sharing",
+          "/en/press/studies-publications/continental-mobility-studies/mobilitystudy2020-from-driver-to-passenger/expectations-for-the-existing-technology",
+          "/en/press/studies-publications/contitech",
+          "/en/press/studies-publications/figures-data-facts",
+          "/en/press/studies-publications/other-publications",
+          "/en/press/studies-publications/other-publications/20220926-continental-informs",
+          "/en/press/studies-publications/other-publications/20260202-continental-informs",
+          "/en/products-and-innovation",
+          "/en/products-and-innovation/products",
+          "/en/products-and-innovation/products/contitech",
+          "/en/products-and-innovation/products/tires",
+          "/en/products-and-innovation/products/tires/conti-ecoplus-ht3",
+          "/en/products-and-innovation/products/tires/conti-efficientpro-gen-3",
+          "/en/products-and-innovation/products/tires/conti-urban",
+          "/en/sustainability/framework/responsible-value-chain/respecting-human-rights",
+          "/en/sustainability/reporting-and-downloads",
+          "/en/temp-home/debt-and-rating/bonds",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a30vq4-isin-xs2558972415",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a35138-isin-xs2672452237",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a351pu-isin-xs2630117328",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a4dfm0-isin-xs3075393499",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a4dfw3-isin-xs3173656243",
+          "/en/temp-home/debt-and-rating/bonds/wkn-a5gs05-isin-xs3478305777",
+          "/en/temp-home/debt-and-rating/bonds/wkn-isin-xs2910509566"
+        ]
+      }
+    ],
+    "detail": "uncaptured first-level targets: de 254, en 224"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 10,
+    "pagesWithSearchForm": 9,
+    "pagesHydrated": 2,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/_assets/{hash}/JavaScript/Hyphenopoly/ExcludedWords.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.continental.com/_assets/1ea205344a72e174bb6103d4cfe6e63c/JavaScript/Hyphenopoly/ExcludedWords.json",
+        "pages": 10,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.admiralcloud.com",
+        "path": "/v5/deliverEmbed/{uuid}",
+        "query": [
+          "mpr"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.admiralcloud.com/v5/deliverEmbed/b44d4543-ee05-474d-8c6b-ea05bfdf66e4",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.admiralcloud.com",
+        "path": "/v5/deliverEmbed/{uuid}/hlsManifest",
+        "query": [
+          "mpr"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://api.admiralcloud.com/v5/deliverEmbed/b44d4543-ee05-474d-8c6b-ea05bfdf66e4/hlsManifest",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.admiralcloud.com",
+        "path": "/v5/deliverEmbed/{uuid}/subtitle/{n}",
+        "query": [
+          "mpr"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/vtt",
+        "sameSite": false,
+        "example": "https://api.admiralcloud.com/v5/deliverEmbed/b44d4543-ee05-474d-8c6b-ea05bfdf66e4/subtitle/35316",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.admiralcloud.com",
+        "path": "/v5/deliverEmbed/{uuid}/hls/{n}",
+        "query": [
+          "mpr",
+          "sid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://api.admiralcloud.com/v5/deliverEmbed/b44d4543-ee05-474d-8c6b-ea05bfdf66e4/hls/720",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.admiralcloud.com",
+        "path": "/v4/player/requestTrackId",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://analytics.admiralcloud.com/v4/player/requestTrackId",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.admiralcloud.com",
+        "path": "/v4/player/trackEvent",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://analytics.admiralcloud.com/v4/player/trackEvent",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "mediafra-217.admiralcloud.com",
+        "path": "/customer_217/{uuid}/files/240_index00000.ts",
+        "query": [
+          "Key-Pair-Id",
+          "Policy",
+          "Signature",
+          "sid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://mediafra-217.admiralcloud.com/customer_217/e793d923-4998-4122-9f9a-0898de544990/files/240_index00000.ts",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "mediafra-217.admiralcloud.com",
+        "path": "/customer_217/{uuid}/files/240_index00001.ts",
+        "query": [
+          "Key-Pair-Id",
+          "Policy",
+          "Signature",
+          "sid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://mediafra-217.admiralcloud.com/customer_217/e793d923-4998-4122-9f9a-0898de544990/files/240_index00001.ts",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/investors/reports-presentations/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/investors/reports-presentations/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-investors-reports-presentations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/investors/reports-presentations/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/investors/reports-presentations/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-investors-reports-presentations"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/country-selector/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/country-selector/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-country-selector"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/country-selector/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/country-selector/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-country-selector"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/de/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/de/api-dc/",
+        "pages": 1,
+        "examples": [
+          "de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/de/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/de/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "de"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "charts3.equitystory.com",
+        "path": "/teaser-t1/continental-ag-v31/German/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/teaser-t1/continental-ag-v31/German/",
+        "pages": 1,
+        "examples": [
+          "de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "charts3.equitystory.com",
+        "path": "/tpl-t1/continental-ag-v31/German/",
+        "query": [
+          "_",
+          "action",
+          "bond",
+          "chart_width",
+          "company",
+          "date_ipo",
+          "default_decimal_precision",
+          "default_exchange[]",
+          "default_isin",
+          "default_news_types[]",
+          "default_range",
+          "default_template",
+          "default_timezone_offset",
+          "default_type",
+          "disable_macd",
+          "disable_navigator",
+          "disable_rsi",
+          "disable_volume",
+          "ignore_timezone_offset",
+          "language",
+          "lookup_range",
+          "show_intraday_benchmarks",
+          "show_trade_history",
+          "update_bottom_table",
+          "update_top_table",
+          "variant"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/tpl-t1/continental-ag-v31/German/",
+        "pages": 1,
+        "examples": [
+          "de"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "charts3.equitystory.com",
+        "path": "/teaser-t1/continental-ag-v31/English/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/teaser-t1/continental-ag-v31/English/",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "charts3.equitystory.com",
+        "path": "/tpl-t1/continental-ag-v31/English/",
+        "query": [
+          "_",
+          "action",
+          "bond",
+          "chart_width",
+          "company",
+          "date_ipo",
+          "default_decimal_precision",
+          "default_exchange[]",
+          "default_isin",
+          "default_news_types[]",
+          "default_range",
+          "default_template",
+          "default_timezone_offset",
+          "default_type",
+          "disable_macd",
+          "disable_navigator",
+          "disable_rsi",
+          "disable_volume",
+          "ignore_timezone_offset",
+          "language",
+          "lookup_range",
+          "show_intraday_benchmarks",
+          "show_trade_history",
+          "update_bottom_table",
+          "update_top_table",
+          "variant"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/tpl-t1/continental-ag-v31/English/",
+        "pages": 1,
+        "examples": [
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/sustainability/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/sustainability/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-sustainability"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/sustainability/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/sustainability/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-sustainability"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-press"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-press"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/stories/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/stories/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-stories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/stories/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/stories/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-stories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-contacts/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-contacts/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-contacts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-contacts/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-contacts/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-contacts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-releases/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-releases/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-releases"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-releases/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-releases/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-releases"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-releases/corporate-topics/api-dc/",
+        "query": [
+          "cHash",
+          "tx_condownloadcenter_api[action]",
+          "tx_condownloadcenter_api[controller]"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-releases/corporate-topics/api-dc/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-releases-corporate-topics"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.continental.com",
+        "path": "/en/press/press-releases/corporate-topics/ipredirectbanner/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.continental.com/en/press/press-releases/corporate-topics/ipredirectbanner/",
+        "pages": 1,
+        "examples": [
+          "en-press-press-releases-corporate-topics"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "d.delivery.consentmanager.net",
+        "pages": 10,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "de"
+        ]
+      },
+      {
+        "host": "cdn.consentmanager.net",
+        "pages": 10,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "de"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "de"
+        ]
+      },
+      {
+        "host": "charts3.equitystory.com",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      },
+      {
+        "host": "player.admiralcloud.com",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "react",
+        "pages": 2,
+        "examples": [
+          "de",
+          "en"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "de"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.continental.com/en/general/search/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "tx_solr[q]"
+        ],
+        "pages": 9,
+        "examples": [
+          "en-investors-reports-presentations",
+          "en-country-selector",
+          "en"
+        ]
+      },
+      {
+        "action": "https://www.continental.com/en/press/press-releases/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "tx_solr[q]"
+        ],
+        "pages": 2,
+        "examples": [
+          "en-press",
+          "en-press-press-releases"
+        ]
+      },
+      {
+        "action": "https://www.continental.com/de/meta/suche/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "tx_solr[q]"
+        ],
+        "pages": 1,
+        "examples": [
+          "de"
+        ]
+      },
+      {
+        "action": "https://www.continental.com/en/press/press-releases/corporate-topics/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "tx_solr[q]"
+        ],
+        "pages": 1,
+        "examples": [
+          "en-press-press-releases-corporate-topics"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "en",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "de",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-press",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-sustainability",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-press-press-releases",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-press-press-releases-corporate-topics",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-stories",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-press-press-contacts",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-investors-reports-presentations",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    },
+    {
+      "slug": "en-country-selector",
+      "verdict": "ok",
+      "notes": "verified via thumb.mjs whole-page + offset slices; hero, typography, palette, and layout match extracted record"
+    }
+  ]
+}

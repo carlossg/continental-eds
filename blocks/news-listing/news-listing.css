@@ -1,0 +1,7 @@
+/* news-listing block styles — scoped container reset; component rules in styles/styles.css */
+.news-listing-wrapper,
+.news-listing.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

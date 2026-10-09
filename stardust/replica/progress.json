@@ -1,0 +1,435 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-08T17:45:13.200Z"
+  },
+  "site": "https://www.continental.com",
+  "flow": "replica",
+  "handsOff": true,
+  "pageCap": 10,
+  "breakpoints": {
+    "gate": [
+      1440,
+      360
+    ],
+    "probeWidth": 2560
+  },
+  "archetypes": {
+    "landing": {
+      "slug": "en",
+      "url": "https://www.continental.com/en/",
+      "prototype": "stardust/prototypes/en-proposed.html",
+      "status": "approved",
+      "approvedBy": "hands-off",
+      "iterations": {
+        "360": 4,
+        "1440": 3,
+        "2560": 2
+      },
+      "gates": {
+        "360": {
+          "pass": true,
+          "pct": 2.45,
+          "differingPixels": 50004,
+          "totalPixels": 2044440,
+          "threshold": 3,
+          "heightDelta": 1,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "7 (0 structural 🔴)",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.71,
+            "pass": true
+          },
+          "log": "en-360-4.log"
+        },
+        "1440": {
+          "pass": true,
+          "pct": 1.32,
+          "differingPixels": 82285,
+          "totalPixels": 6246720,
+          "threshold": 3,
+          "heightDelta": 1,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "7 (0 structural 🔴)",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.37,
+            "pass": true
+          },
+          "log": "en-1440-3.log"
+        },
+        "2560": {
+          "pass": true,
+          "rowsFailed": 0,
+          "rowsTotal": 7,
+          "evidence": "stardust/replica/gates/en-2560/cap-iter2.json"
+        }
+      },
+      "residuals": [],
+      "motion": {
+        "observed": "stardust/replica/motion/en.json",
+        "buildObserved": "stardust/replica/motion/en-build.json",
+        "comparison": "stardust/replica/motion/en-compare.json",
+        "summary": {
+          "parity": 27,
+          "missing": 0,
+          "extra": 0,
+          "advisory": 0,
+          "outOfTolerance": 0
+        },
+        "implemented": [
+          "sticky-header-scroll (.c-header.is-sticky)",
+          "ip-redirect-dismiss (.c-ip-redirect.is-hidden)",
+          "scroll-to-top-visibility (.c-scroll-to-top.is-visible)",
+          "language-switch-dropdown (.c-Select-Input.is-open)",
+          "quicksearch-overlay (.c-quicksearch)",
+          "hero-slider-controls (.c-heroteaser-fixed__dots / arrows)",
+          "lazy-image-reveal (.is-lazyloaded)"
+        ],
+        "dead": []
+      },
+      "captureState": [
+        {
+          "selector": ".c-heroteaser-fixed",
+          "frozenState": "Pinned to slide 0 with idle rotation paused when ?__gate=1 or navigator.webdriver is active",
+          "restoreAtDelivery": "Unpause 6000ms auto-advance interval in normal visitor sessions while pausing on hover/focus"
+        }
+      ]
+    },
+    "listing": {
+      "slug": "en-press-press-releases",
+      "url": "https://www.continental.com/en/press/press-releases/",
+      "prototype": "stardust/prototypes/en-press-press-releases-proposed.html",
+      "status": "approved",
+      "approvedBy": "hands-off",
+      "iterations": {
+        "360": 4,
+        "1440": 2,
+        "2560": 1
+      },
+      "gates": {
+        "360": {
+          "pass": true,
+          "pct": 0.05,
+          "differingPixels": 1003,
+          "totalPixels": 2229120,
+          "threshold": 5,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "none — content + roles match",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.1,
+            "pass": true
+          },
+          "log": "pr-360-4.log"
+        },
+        "1440": {
+          "pass": true,
+          "pct": 0,
+          "differingPixels": 132,
+          "totalPixels": 4996800,
+          "threshold": 5,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "none — content + roles match",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.02,
+            "pass": true
+          },
+          "log": "pr-1440-2.log"
+        },
+        "2560": {
+          "pass": true,
+          "rowsFailed": 0,
+          "rowsTotal": 6,
+          "evidence": "stardust/replica/gates/en-press-press-releases-2560/cap-iter1.json"
+        }
+      },
+      "residuals": [],
+      "motion": {
+        "observed": "stardust/replica/motion/en-press-press-releases.json",
+        "buildObserved": "stardust/replica/motion/en-press-press-releases-build.json",
+        "comparison": "stardust/replica/motion/en-press-press-releases-compare.json",
+        "summary": {
+          "parity": 22,
+          "missing": 0,
+          "extra": 0,
+          "advisory": 0,
+          "outOfTolerance": 0
+        },
+        "implemented": [
+          "sticky-header-scroll (.c-header.is-sticky)",
+          "ip-redirect-dismiss (.c-ip-redirect.is-hidden)",
+          "scroll-to-top-visibility (.c-scroll-to-top.is-visible)",
+          "language-switch-dropdown (.c-Select-Input.is-open)",
+          "quicksearch-overlay (.c-quicksearch)",
+          "lazy-image-reveal (.is-lazyloaded)"
+        ],
+        "dead": []
+      },
+      "captureState": []
+    },
+    "static": {
+      "slug": "en-press-press-contacts",
+      "url": "https://www.continental.com/en/press/press-contacts/",
+      "prototype": "stardust/prototypes/en-press-press-contacts-proposed.html",
+      "status": "approved",
+      "approvedBy": "hands-off",
+      "iterations": {
+        "360": 2,
+        "1440": 2,
+        "2560": 1
+      },
+      "gates": {
+        "360": {
+          "pass": true,
+          "pct": 0.05,
+          "differingPixels": 985,
+          "totalPixels": 1859040,
+          "threshold": 5,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "none — content + roles match",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.1,
+            "pass": true
+          },
+          "log": "pc-360-2.log"
+        },
+        "1440": {
+          "pass": true,
+          "pct": 0.01,
+          "differingPixels": 158,
+          "totalPixels": 3003840,
+          "threshold": 5,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "clipped": 0,
+          "contentDiff": "none — content + roles match",
+          "visualDiff": 0,
+          "chromeParity": "✓ match across all 30 properties",
+          "cropCompare": {
+            "headerPct": 0,
+            "footerPct": 0.02,
+            "pass": true
+          },
+          "log": "pc-1440-2.log"
+        },
+        "2560": {
+          "pass": true,
+          "rowsFailed": 0,
+          "rowsTotal": 4,
+          "evidence": "stardust/replica/gates/en-press-press-contacts-2560/cap-iter1.json"
+        }
+      },
+      "residuals": [],
+      "motion": {
+        "observed": "stardust/replica/motion/en-press-press-contacts.json",
+        "buildObserved": "stardust/replica/motion/en-press-press-contacts-build.json",
+        "comparison": "stardust/replica/motion/en-press-press-contacts-compare.json",
+        "summary": {
+          "parity": 22,
+          "missing": 0,
+          "extra": 0,
+          "advisory": 0,
+          "outOfTolerance": 0
+        },
+        "implemented": [
+          "sticky-header-scroll (.c-header.is-sticky)",
+          "ip-redirect-dismiss (.c-ip-redirect.is-hidden)",
+          "scroll-to-top-visibility (.c-scroll-to-top.is-visible)",
+          "language-switch-dropdown (.c-Select-Input.is-open)",
+          "quicksearch-overlay (.c-quicksearch)",
+          "lazy-image-reveal (.is-lazyloaded)"
+        ],
+        "dead": []
+      },
+      "captureState": []
+    }
+  },
+  "siblings": {
+    "de": {
+      "archetype": "en",
+      "variants": [
+        "landing--de-locale landing--8-sections"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/de/index.html"
+    },
+    "en-country-selector": {
+      "archetype": "en-press-press-contacts",
+      "variants": [
+        "static--country-directory"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/country-selector/index.html"
+    },
+    "en-investors-reports-presentations": {
+      "archetype": "en-press-press-contacts",
+      "variants": [
+        "static--reports-tabs-accordion"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/investors/reports-presentations/index.html"
+    },
+    "en-press": {
+      "archetype": "en",
+      "variants": [
+        "landing--press-hub landing--compact-hero"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/press/index.html"
+    },
+    "en-press-press-releases-corporate-topics": {
+      "archetype": "en-press-press-releases",
+      "variants": [
+        "listing--filtered-topic"
+      ],
+      "pixel": {},
+      "contentDiff": "1 (0 structural 🔴)",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/press/press-releases/corporate-topics/index.html"
+    },
+    "en-stories": {
+      "archetype": "en-press-press-releases",
+      "variants": [
+        "listing--editorial-stories listing--hero-lead"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/stories/index.html"
+    },
+    "en-sustainability": {
+      "archetype": "en",
+      "variants": [
+        "landing--topic-hub landing--4-sections"
+      ],
+      "pixel": {},
+      "contentDiff": "none — content + roles match",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint",
+        "variance-probe",
+        "content-count"
+      ],
+      "migrated": "stardust/migrated/en/sustainability/index.html"
+    }
+  },
+  "migrate": {
+    "at": "2026-10-08T17:53:24.921Z",
+    "pages": 10,
+    "archetypes": 3,
+    "siblings": 7,
+    "thin": 0,
+    "gates": {
+      "content-fidelity": 10,
+      "delivery-lint": 10,
+      "variance-probe": 7,
+      "content-count": 10,
+      "pixel-gate-1440": 3,
+      "pixel-gate-360": 3
+    },
+    "missing": {
+      "de": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-country-selector": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-investors-reports-presentations": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-press": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-press-press-releases-corporate-topics": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-stories": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ],
+      "en-sustainability": [
+        "pixel-gate-1440",
+        "pixel-gate-360"
+      ]
+    }
+  }
+}

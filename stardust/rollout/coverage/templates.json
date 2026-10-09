@@ -1,0 +1,97 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T17:50:50.807Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T17:50:50.807Z",
+  "templates": [
+    {
+      "id": "en",
+      "representativeSlug": "en",
+      "pages": [
+        "de",
+        "en",
+        "en-press",
+        "en-sustainability"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "accordion",
+        "cards-grid",
+        "columns-band",
+        "contact-card",
+        "content-section",
+        "hero",
+        "hero-banner",
+        "hero-slider",
+        "highlight-band",
+        "listing-results",
+        "news-listing",
+        "split-media-band",
+        "teaser-grid"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 4
+      }
+    },
+    {
+      "id": "en-press-press-contacts",
+      "representativeSlug": "en-press-press-contacts",
+      "pages": [
+        "en-country-selector",
+        "en-investors-reports-presentations",
+        "en-press-press-contacts"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "accordion",
+        "cards-grid",
+        "contact-card",
+        "content-section",
+        "downloads-table",
+        "hero",
+        "hero-banner",
+        "region-selector",
+        "teaser-grid"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 3
+      }
+    },
+    {
+      "id": "en-press-press-releases",
+      "representativeSlug": "en-press-press-releases",
+      "pages": [
+        "en-press-press-releases",
+        "en-press-press-releases-corporate-topics",
+        "en-stories"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "cards-grid",
+        "contact-card",
+        "content-section",
+        "hero",
+        "hero-banner",
+        "listing-results",
+        "news-listing"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 3
+      }
+    }
+  ]
+}

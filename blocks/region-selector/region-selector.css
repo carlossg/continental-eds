@@ -1,0 +1,7 @@
+/* region-selector block styles — scoped container reset; component rules in styles/styles.css */
+.region-selector-wrapper,
+.region-selector.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T17:50:50.807Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.continental.com",
+    "da": {
+      "org": "carlossg",
+      "site": "continental-eds",
+      "ref": "main"
+    },
+    "liveHost": "main--continental-eds--carlossg.aem.live"
+  },
+  "lastRun": {
+    "at": "2026-10-08T17:50:50.807Z",
+    "pages": {
+      "total": 10,
+      "verified": 0,
+      "deployed": 0,
+      "pending": 10,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 15,
+      "converted": 0,
+      "pending": 15
+    },
+    "verifyFailures": 0
+  }
+}

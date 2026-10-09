@@ -1,0 +1,7 @@
+/* highlight-band block styles — scoped container reset; component rules in styles/styles.css */
+.highlight-band-wrapper,
+.highlight-band.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

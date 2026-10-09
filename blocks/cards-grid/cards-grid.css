@@ -1,0 +1,7 @@
+/* cards-grid block styles — scoped container reset; component rules in styles/styles.css */
+.cards-grid-wrapper,
+.cards-grid.block {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

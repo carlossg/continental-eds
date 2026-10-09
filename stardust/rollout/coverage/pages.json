@@ -1,0 +1,284 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T17:50:50.807Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T17:50:50.807Z",
+  "pages": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "title": "Home - Continental AG",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/index.html",
+        "metaJson": "stardust/migrated/de/_meta.json",
+        "sourceHash": "sha256:c05353f42fbf800e22987bf5e1c09ea2f5ba82f7aa689cfe04376b545d94f966"
+      },
+      "blocks": [
+        "hero-slider",
+        "teaser-grid",
+        "content-section",
+        "hero",
+        "highlight-band",
+        "cards-grid",
+        "split-media-band",
+        "columns-band",
+        "news-listing"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "title": "Home | Continental - Continental AG",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/index.html",
+        "metaJson": "stardust/migrated/en/_meta.json",
+        "sourceHash": "sha256:503ce152e959a9bafb2e2ba887d2440a035de24219606bb43c133b84ed0c4966"
+      },
+      "blocks": [
+        "hero-slider",
+        "teaser-grid",
+        "content-section",
+        "hero",
+        "highlight-band",
+        "cards-grid",
+        "split-media-band",
+        "columns-band",
+        "news-listing"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-country-selector",
+      "path": "/en/country-selector",
+      "title": "Country Selector - Continental AG",
+      "templateId": "en-press-press-contacts",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/country-selector/index.html",
+        "metaJson": "stardust/migrated/en/country-selector/_meta.json",
+        "sourceHash": "sha256:6e923e2f3553007e51b9293739cffd8ffbd62be6c9459935e1f557a8b2a10686"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "hero",
+        "region-selector",
+        "accordion"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-investors-reports-presentations",
+      "path": "/en/investors/reports-presentations",
+      "title": "Financial Reports | Continental - Continental AG",
+      "templateId": "en-press-press-contacts",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/investors/reports-presentations/index.html",
+        "metaJson": "stardust/migrated/en/investors/reports-presentations/_meta.json",
+        "sourceHash": "sha256:8d7fca473044b992568b2819608f6c50033992ed1307ccb311cc275021a7b3a6"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "teaser-grid",
+        "hero",
+        "accordion",
+        "downloads-table",
+        "cards-grid"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-press",
+      "path": "/en/press",
+      "title": "Press - Continental AG",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/press/index.html",
+        "metaJson": "stardust/migrated/en/press/_meta.json",
+        "sourceHash": "sha256:b5709eba5e960e8b7f7585606348291f9f900826767cec292f1c8af240ed9ed8"
+      },
+      "blocks": [
+        "hero-slider",
+        "listing-results",
+        "content-section",
+        "teaser-grid",
+        "hero",
+        "news-listing",
+        "cards-grid",
+        "columns-band",
+        "contact-card",
+        "accordion"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-press-press-contacts",
+      "path": "/en/press/press-contacts",
+      "title": "Press Contacts - Continental AG",
+      "templateId": "en-press-press-contacts",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/press/press-contacts/index.html",
+        "metaJson": "stardust/migrated/en/press/press-contacts/_meta.json",
+        "sourceHash": "sha256:2aa7f4a04c46f2d7d7cf7684104643bea64d8c84faf9527b12e66d6b359e0927"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "teaser-grid",
+        "hero",
+        "contact-card",
+        "accordion"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-press-press-releases",
+      "path": "/en/press/press-releases",
+      "title": "Press Releases - Continental AG",
+      "templateId": "en-press-press-releases",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/press/press-releases/index.html",
+        "metaJson": "stardust/migrated/en/press/press-releases/_meta.json",
+        "sourceHash": "sha256:71f6ddac2100d6644a18a62a6fe6bb4106f7868a6905c7a322f05e300daa7659"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "listing-results",
+        "hero",
+        "news-listing",
+        "cards-grid",
+        "contact-card"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-press-press-releases-corporate-topics",
+      "path": "/en/press/press-releases/corporate-topics",
+      "title": "Corporate Topics - Continental AG",
+      "templateId": "en-press-press-releases",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/press/press-releases/corporate-topics/index.html",
+        "metaJson": "stardust/migrated/en/press/press-releases/corporate-topics/_meta.json",
+        "sourceHash": "sha256:6463917cace5c5dea41c616616fdeb6d180644f429d48a830556b25c081e1484"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "listing-results",
+        "hero",
+        "news-listing",
+        "cards-grid",
+        "contact-card"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-stories",
+      "path": "/en/stories",
+      "title": "Stories - Continental AG",
+      "templateId": "en-press-press-releases",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/stories/index.html",
+        "metaJson": "stardust/migrated/en/stories/_meta.json",
+        "sourceHash": "sha256:05a13a17b2fe69aa6ed5df26221952eb2c5dda9593c480b4c950f9e86e155d02"
+      },
+      "blocks": [
+        "content-section",
+        "hero",
+        "cards-grid",
+        "news-listing"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "en-sustainability",
+      "path": "/en/sustainability",
+      "title": "Sustainability at Continental - Continental AG",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/sustainability/index.html",
+        "metaJson": "stardust/migrated/en/sustainability/_meta.json",
+        "sourceHash": "sha256:d67a9b78b5a8cfc184c89e5668879de07ad7deadccae0ab37378370fad71ae0b"
+      },
+      "blocks": [
+        "hero-banner",
+        "content-section",
+        "teaser-grid",
+        "hero",
+        "cards-grid",
+        "split-media-band",
+        "highlight-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    }
+  ]
+}
