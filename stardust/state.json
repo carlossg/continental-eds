@@ -6,7 +6,7 @@
   },
   "site": {
     "originUrl": "https://www.continental.com",
-    "deployUrl": null,
+    "deployUrl": "https://main--continental-eds--carlossg.aem.live",
     "extractedAt": "2026-10-08T16:14:06.276Z",
     "pageCap": 10,
     "totalDiscovered": 10,
@@ -522,7 +522,7 @@
       "url": "https://www.continental.com/en/",
       "title": "Home | Continental - Continental AG",
       "type": "landing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -544,20 +544,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:49Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en.json",
       "prototypePath": "stardust/prototypes/en-proposed.html",
-      "migratedPath": "stardust/migrated/en/index.html"
+      "migratedPath": "stardust/migrated/en/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en",
+      "deployedPath": "/en",
+      "fidelityTier": "archetype",
+      "template": "landing"
     },
     {
       "slug": "de",
       "url": "https://www.continental.com/de/",
       "title": "Home - Continental AG",
       "type": "landing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -570,20 +578,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:49Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/de.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/de/index.html"
+      "migratedPath": "stardust/migrated/de/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/de",
+      "deployedPath": "/de",
+      "fidelityTier": "sibling",
+      "template": "en"
     },
     {
       "slug": "en-press",
       "url": "https://www.continental.com/en/press/",
       "title": "Press - Continental AG",
       "type": "landing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -596,20 +612,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:49Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-press.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/press/index.html"
+      "migratedPath": "stardust/migrated/en/press/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/press",
+      "deployedPath": "/en/press",
+      "fidelityTier": "sibling",
+      "template": "en"
     },
     {
       "slug": "en-sustainability",
       "url": "https://www.continental.com/en/sustainability/",
       "title": "Sustainability at Continental - Continental AG",
       "type": "landing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -622,20 +646,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:49Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-sustainability.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/sustainability/index.html"
+      "migratedPath": "stardust/migrated/en/sustainability/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/sustainability",
+      "deployedPath": "/en/sustainability",
+      "fidelityTier": "sibling",
+      "template": "en"
     },
     {
       "slug": "en-press-press-releases",
       "url": "https://www.continental.com/en/press/press-releases/",
       "title": "Press Releases - Continental AG",
       "type": "listing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -657,20 +689,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-press-press-releases.json",
       "prototypePath": "stardust/prototypes/en-press-press-releases-proposed.html",
-      "migratedPath": "stardust/migrated/en/press/press-releases/index.html"
+      "migratedPath": "stardust/migrated/en/press/press-releases/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-releases",
+      "deployedPath": "/en/press/press-releases",
+      "fidelityTier": "archetype",
+      "template": "listing"
     },
     {
       "slug": "en-press-press-releases-corporate-topics",
       "url": "https://www.continental.com/en/press/press-releases/corporate-topics/",
       "title": "Corporate Topics - Continental AG",
       "type": "listing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -683,20 +723,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-press-press-releases-corporate-topics.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/press/press-releases/corporate-topics/index.html"
+      "migratedPath": "stardust/migrated/en/press/press-releases/corporate-topics/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-releases/corporate-topics",
+      "deployedPath": "/en/press/press-releases/corporate-topics",
+      "fidelityTier": "sibling",
+      "template": "en-press-press-releases"
     },
     {
       "slug": "en-stories",
       "url": "https://www.continental.com/en/stories/",
       "title": "Stories - Continental AG",
       "type": "listing",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -709,20 +757,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-stories.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/stories/index.html"
+      "migratedPath": "stardust/migrated/en/stories/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/stories",
+      "deployedPath": "/en/stories",
+      "fidelityTier": "sibling",
+      "template": "en-press-press-releases"
     },
     {
       "slug": "en-press-press-contacts",
       "url": "https://www.continental.com/en/press/press-contacts/",
       "title": "Press Contacts - Continental AG",
       "type": "static",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -744,20 +800,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-press-press-contacts.json",
       "prototypePath": "stardust/prototypes/en-press-press-contacts-proposed.html",
-      "migratedPath": "stardust/migrated/en/press/press-contacts/index.html"
+      "migratedPath": "stardust/migrated/en/press/press-contacts/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-contacts",
+      "deployedPath": "/en/press/press-contacts",
+      "fidelityTier": "archetype",
+      "template": "static"
     },
     {
       "slug": "en-investors-reports-presentations",
       "url": "https://www.continental.com/en/investors/reports-presentations/",
       "title": "Financial Reports | Continental - Continental AG",
       "type": "static",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -770,20 +834,28 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-investors-reports-presentations.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/investors/reports-presentations/index.html"
+      "migratedPath": "stardust/migrated/en/investors/reports-presentations/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/investors/reports-presentations",
+      "deployedPath": "/en/investors/reports-presentations",
+      "fidelityTier": "sibling",
+      "template": "en-press-press-contacts"
     },
     {
       "slug": "en-country-selector",
       "url": "https://www.continental.com/en/country-selector/",
       "title": "Country Selector - Continental AG",
       "type": "static",
-      "status": "migrated",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -796,13 +868,21 @@
         {
           "status": "migrated",
           "at": "2026-10-08T17:50:50Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-09T11:35:09.861Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-country-selector.json",
       "prototypePath": null,
-      "migratedPath": "stardust/migrated/en/country-selector/index.html"
+      "migratedPath": "stardust/migrated/en/country-selector/index.html",
+      "liveUrl": "https://main--continental-eds--carlossg.aem.live/en/country-selector",
+      "deployedPath": "/en/country-selector",
+      "fidelityTier": "sibling",
+      "template": "en-press-press-contacts"
     }
   ],
   "migrate": {

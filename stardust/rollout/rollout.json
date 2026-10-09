@@ -15,20 +15,20 @@
     "liveHost": "main--continental-eds--carlossg.aem.live"
   },
   "lastRun": {
-    "at": "2026-10-08T17:50:50.807Z",
+    "at": "2026-10-09T12:14:18.043Z",
     "pages": {
       "total": 10,
-      "verified": 0,
+      "verified": 10,
       "deployed": 0,
-      "pending": 10,
+      "pending": 0,
       "contentPending": 0,
       "stale": 0,
       "failed": 0
     },
     "blocks": {
       "total": 15,
-      "converted": 0,
-      "pending": 15
+      "converted": 15,
+      "pending": 0
     },
     "verifyFailures": 0
   }

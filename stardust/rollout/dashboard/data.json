@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-09T12:17:19.158Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.continental.com",
+    "liveHost": "main--continental-eds--carlossg.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 10
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 10
+  },
+  "pages": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "stage": "optimised",
+      "templateId": "en",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "stage": "optimised",
+      "templateId": "en",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-country-selector",
+      "path": "/en/country-selector",
+      "stage": "optimised",
+      "templateId": "en-press-press-contacts",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-investors-reports-presentations",
+      "path": "/en/investors/reports-presentations",
+      "stage": "optimised",
+      "templateId": "en-press-press-contacts",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-press",
+      "path": "/en/press",
+      "stage": "optimised",
+      "templateId": "en",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-press-press-contacts",
+      "path": "/en/press/press-contacts",
+      "stage": "optimised",
+      "templateId": "en-press-press-contacts",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-press-press-releases",
+      "path": "/en/press/press-releases",
+      "stage": "optimised",
+      "templateId": "en-press-press-releases",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-press-press-releases-corporate-topics",
+      "path": "/en/press/press-releases/corporate-topics",
+      "stage": "optimised",
+      "templateId": "en-press-press-releases",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-stories",
+      "path": "/en/stories",
+      "stage": "optimised",
+      "templateId": "en-press-press-releases",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-sustainability",
+      "path": "/en/sustainability",
+      "stage": "optimised",
+      "templateId": "en",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "en",
+      "archetype": "en",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "en-press-press-contacts",
+      "archetype": "en-press-press-contacts",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "en-press-press-releases",
+      "archetype": "en-press-press-releases",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 3
+      }
+    }
+  ],
+  "blocks": {
+    "total": 15,
+    "converted": 15
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

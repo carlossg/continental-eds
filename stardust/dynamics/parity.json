@@ -1,0 +1,118 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-09T12:13:39.532Z",
+    "origin": "https://main--continental-eds--carlossg.aem.live"
+  },
+  "features": [
+    {
+      "id": "eds-query-index",
+      "feature": "EDS Query Index (/query-index.json)",
+      "class": "D",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "fetch-json",
+          "url": "/query-index.json",
+          "minRows": 10
+        }
+      ]
+    },
+    {
+      "id": "hero-slider-home",
+      "feature": "Hero Slider on /en",
+      "class": "CR",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": ".c-heroteaser-fixed__slide",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "press-releases-listing",
+      "feature": "Press Releases Listing on /en/press/press-releases",
+      "class": "L",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en/press/press-releases",
+          "selector": ".c-teaser, .c-search a[href]",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "press-contacts-cards",
+      "feature": "Press Contacts Cards on /en/press/press-contacts",
+      "class": "CR",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en/press/press-contacts",
+          "selector": ".c-teaser, .c-contact",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "investors-downloads-table",
+      "feature": "Reports & Presentations Downloads on /en/investors/reports-presentations",
+      "class": "D",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en/investors/reports-presentations",
+          "selector": ".o-accordion__item, .c-download-list__item, a[href]",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "consent-gate-analytics",
+      "feature": "Consent-gated third-party tags",
+      "class": "T",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/en",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "d.delivery.consentmanager.net"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "runtime-clean-execution",
+      "feature": "Zero runtime page errors across all 10 delivered pages",
+      "class": "A",
+      "status": "delivered",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/en",
+            "/de",
+            "/en/country-selector",
+            "/en/investors/reports-presentations",
+            "/en/press",
+            "/en/press/press-contacts",
+            "/en/press/press-releases",
+            "/en/press/press-releases/corporate-topics",
+            "/en/stories",
+            "/en/sustainability"
+          ]
+        }
+      ]
+    }
+  ]
+}

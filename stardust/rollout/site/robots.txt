@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://main--continental-eds--carlossg.aem.live/sitemap.xml

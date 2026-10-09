@@ -7,7 +7,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-08T17:50:51.111Z",
+  "generatedAt": "2026-10-09T11:27:28.269Z",
   "blocks": [
     {
       "id": "accordion",
@@ -27,10 +27,10 @@
       ],
       "instanceCount": 4,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "accordion",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:26.853Z"
       }
     },
     {
@@ -56,10 +56,10 @@
       ],
       "instanceCount": 8,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "cards-grid",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:26.948Z"
       }
     },
     {
@@ -78,10 +78,10 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "columns-band",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.041Z"
       }
     },
     {
@@ -103,10 +103,10 @@
       ],
       "instanceCount": 4,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "contact-card",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.136Z"
       }
     },
     {
@@ -134,10 +134,10 @@
       ],
       "instanceCount": 10,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "content-section",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.234Z"
       }
     },
     {
@@ -154,10 +154,10 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "downloads-table",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.337Z"
       }
     },
     {
@@ -185,10 +185,10 @@
       ],
       "instanceCount": 10,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "hero",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.439Z"
       }
     },
     {
@@ -212,10 +212,10 @@
       ],
       "instanceCount": 6,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "hero-banner",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.545Z"
       }
     },
     {
@@ -234,10 +234,10 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "hero-slider",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.655Z"
       }
     },
     {
@@ -256,10 +256,10 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "highlight-band",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.761Z"
       }
     },
     {
@@ -279,10 +279,10 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "listing-results",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.868Z"
       }
     },
     {
@@ -305,10 +305,10 @@
       ],
       "instanceCount": 6,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "news-listing",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:27.962Z"
       }
     },
     {
@@ -325,10 +325,10 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "region-selector",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:28.064Z"
       }
     },
     {
@@ -347,10 +347,10 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "split-media-band",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:28.165Z"
       }
     },
     {
@@ -373,10 +373,10 @@
       ],
       "instanceCount": 6,
       "delivery": {
-        "status": "pending",
+        "status": "converted",
         "edsBlockName": "teaser-grid",
         "blockPath": null,
-        "convertedAt": null
+        "convertedAt": "2026-10-09T11:27:28.269Z"
       }
     }
   ]

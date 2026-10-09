@@ -1,0 +1,94 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-09T12:16:13.506Z",
+  "origin": "https://main--continental-eds--carlossg.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "EDS Query Index (/query-index.json)",
+   "id": "eds-query-index",
+   "class": "D",
+   "status": "delivered",
+   "type": "fetch-json",
+   "pass": true,
+   "detail": "200 · 11 rows · keys columns,data,offset,limit,total,:type",
+   "thirdParty": "",
+   "ms": 3208,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Hero Slider on /en",
+   "id": "hero-slider-home",
+   "class": "CR",
+   "status": "delivered",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × .c-heroteaser-fixed__slide (min 2)",
+   "thirdParty": "",
+   "ms": 1933,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Press Releases Listing on /en/press/press-releases",
+   "id": "press-releases-listing",
+   "class": "L",
+   "status": "delivered",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "34 × .c-teaser, .c-search a[href] (min 5)",
+   "thirdParty": "",
+   "ms": 2126,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Press Contacts Cards on /en/press/press-contacts",
+   "id": "press-contacts-cards",
+   "class": "CR",
+   "status": "delivered",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .c-teaser, .c-contact (min 2)",
+   "thirdParty": "",
+   "ms": 2012,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Reports & Presentations Downloads on /en/investors/reports-presentations",
+   "id": "investors-downloads-table",
+   "class": "D",
+   "status": "delivered",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "419 × .o-accordion__item, .c-download-list__item, a[href] (min 5)",
+   "thirdParty": "",
+   "ms": 2081,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Consent-gated third-party tags",
+   "id": "consent-gate-analytics",
+   "class": "T",
+   "status": "delivered",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 3 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 5852,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Zero runtime page errors across all 10 delivered pages",
+   "id": "runtime-clean-execution",
+   "class": "A",
+   "status": "delivered",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 10 page(s)",
+   "thirdParty": "",
+   "ms": 19583,
+   "environmentLimit": null
+  }
+ ]
+}

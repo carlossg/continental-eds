@@ -7,7 +7,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-08T17:50:50.807Z",
+  "generatedAt": "2026-10-09T12:14:18.043Z",
   "pages": [
     {
       "slug": "de",
@@ -31,11 +31,22 @@
         "news-listing"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/de",
+        "deployedAt": "2026-10-09T11:27:28.486Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -60,11 +71,22 @@
         "news-listing"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en",
+        "deployedAt": "2026-10-09T11:27:28.374Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.37,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -85,11 +107,22 @@
         "accordion"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/country-selector",
+        "deployedAt": "2026-10-09T11:27:28.586Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -112,11 +145,22 @@
         "cards-grid"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/investors/reports-presentations",
+        "deployedAt": "2026-10-09T11:27:28.683Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -142,11 +186,22 @@
         "accordion"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/press",
+        "deployedAt": "2026-10-09T11:27:28.786Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -168,11 +223,22 @@
         "accordion"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-contacts",
+        "deployedAt": "2026-10-09T11:27:28.884Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.02,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -195,11 +261,22 @@
         "contact-card"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-releases",
+        "deployedAt": "2026-10-09T11:27:28.981Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.02,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -222,11 +299,22 @@
         "contact-card"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/press/press-releases/corporate-topics",
+        "deployedAt": "2026-10-09T11:27:29.081Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -246,11 +334,22 @@
         "news-listing"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/stories",
+        "deployedAt": "2026-10-09T11:27:29.179Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     },
     {
@@ -273,11 +372,22 @@
         "highlight-band"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
-        "verifiedAt": null,
-        "error": null
+        "status": "verified",
+        "deployedUrl": "https://main--continental-eds--carlossg.aem.live/en/sustainability",
+        "deployedAt": "2026-10-09T11:27:29.281Z",
+        "verifiedAt": "2026-10-09T12:14:18.043Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-1440/summary.json",
+          "at": "2026-10-09T12:10:13.998Z"
+        }
       }
     }
   ]
